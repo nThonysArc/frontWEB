@@ -7,7 +7,7 @@ const isBrowser = typeof window !== 'undefined' && typeof localStorage !== 'unde
 
 export const api = axios.create({
   // Nota: Es mejor usar variables de entorno para el baseURL en un entorno de producción/Railway.
-  baseURL: 'http://localhost:8080',
+  baseURL: 'https://medicsalud-backend-production.up.railway.app/',
   headers: {
     'Content-Type': 'application/json',
   },
